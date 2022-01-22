@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: goutham
+spec:
+  selector:
+    app: goutham
+  ports:
+  - port: 80
+    targetPort: 9555
