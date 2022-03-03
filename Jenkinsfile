@@ -2,7 +2,7 @@
 pipeline {
 
   environment {
-    PROJECT = "useful-cathode-334010"
+    PROJECT = "complete-welder-334506"
     APP_NAME = "adservice"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "cluster1"
