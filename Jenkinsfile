@@ -2,10 +2,10 @@
 pipeline {
 
   environment {
-    PROJECT = "complete-welder-334506"
+    PROJECT = "indigo-history-337312"
     APP_NAME = "adservice"
     FE_SVC_NAME = "${APP_NAME}-frontend"
-    CLUSTER = "cluster1"
+    CLUSTER = "way2die"
     CLUSTER_ZONE = "us-central1-c"
     IMAGE_TAG = "gcr.io/${PROJECT}/${APP_NAME}"
     JENKINS_CRED = "${PROJECT}"
