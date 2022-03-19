@@ -81,7 +81,7 @@ kind: Service
 metadata:
   name: adservice
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: adservice
   ports:
