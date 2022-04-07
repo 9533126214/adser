@@ -28,7 +28,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image: adservice
+          image: gcr.io/indigo-history-337312/adservice:latest
           ports:
             - containerPort: 9555
           env:
