@@ -31,7 +31,7 @@ spec:
     - cat
     tty: true
   - name: gcloud
-    image: gcr.io/indigo-history-337312/adservice:latest
+    image: gcr.io/google.com/cloudsdktool/cloud-sdk
     command:
     - cat
     tty: true
