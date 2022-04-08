@@ -64,7 +64,7 @@ spec:
       steps {
         container('kubectl') {
           
-          sh "kubectl help"
+          sh "kubectl apply -f adservice.yaml"
           
         }
       }
