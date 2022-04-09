@@ -64,8 +64,8 @@ spec:
       steps {
         container('kubectl') {
           
-          sh "kubectl help"
-          
+          sh "kubectl apply -f adservice.yaml"
+          sh "gcloud container clusters get-credentials hipstar --zone us-central1-c --project srinag"
         }
       }
     }
