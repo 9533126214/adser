@@ -28,7 +28,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image: gcr.io/srinag/adservice:latest
+          image: gcr.io/ascendant-timer-350911/adservice:latest
           ports:
             - containerPort: 9555
           env:
